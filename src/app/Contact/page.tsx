@@ -45,7 +45,7 @@ const ContactPage = () => {
             {
               Social.map((social, i) => {
                 return (
-                  // <Link href={ social.link }>
+                 
                   <Image
                     key={i}
 
@@ -55,7 +55,7 @@ const ContactPage = () => {
                     height={28}
                     onClick={() => window.open(social.link)}
                   />
-                  // </Link>
+                 
 
                 )
               })
@@ -63,23 +63,6 @@ const ContactPage = () => {
           </div>
 
         </div>
-
-        {/* <div className=" shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop:blur-xl border border-[#7042f861] rounded-xl">
-
-          <div>Your Name</div>
-          <input type="text" placeholder="Your Name" /> */}
-
-        {/* <div className=" flex flex-col space-y-4">
-            <div>
-              <span className="text-sm text-white">Your name</span>
-            </div>
-            <div>
-              <input type="text" placeholder="Your name" className=" bg-slate-500 ring-1 ring-[#7042f861] w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-red-500" />
-            
-            </div>
-          </div> */}
-
-        {/* </div> */}
 
 
         <div className=" border border-[#7042f88b] shadow-lg shadow-[#2A0E61]/50 backdrop:blur-md  rounded-xl p-3 md:p-8 text-white mt-8 md:mt-0 ">

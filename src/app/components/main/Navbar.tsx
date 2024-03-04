@@ -47,18 +47,7 @@ const Navbar = () => {
                                         href={item.link}>{item.title}</Link>
                                 ))
                             }
-                            {/* <Link href="/" className="cursor-pointer">
-                                Home
-                            </Link>
-                            <Link href="/about-me" className="cursor-pointer">
-                                About me
-                            </Link>
-                            <Link href="/Skills" className="cursor-pointer">
-                                Skills
-                            </Link>
-                            <Link href="/projects" className="cursor-pointer">
-                                Projects
-                            </Link> */}
+                    
                         </div>
                     </div>
                 </div>

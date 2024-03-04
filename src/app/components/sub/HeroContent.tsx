@@ -1,7 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '../../../../utils/motion'
-// import { SparklesIcon } from '@heroicons/react/24/solid'
+
 import Image from 'next/image'
 import { Typewriter } from 'react-simple-typewriter'
 import myPic from '../../../../public/myPic.jpeg'
@@ -36,16 +36,6 @@ const HeroContent = async () => {
             className='flex flex-col md:flex-row items-center justify-center px-10 md:px-20 mt-40 z-[20]'
         >
             <div className=' h-full w-full flex flex-col gap-y-5 justify-center m-auto text-start '>
-
-                {/* <motion.div
-                    variants={slideInFromTop}
-                    className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
-                >
-                    <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-                    <h1 className="Welcome-text text-[13px]">
-                        Fullstack Developer Portfolio
-                    </h1>
-                </motion.div> */}
 
                 <motion.div
                     variants={slideInFromLeft(0.5)}
@@ -85,7 +75,6 @@ const HeroContent = async () => {
                                         className='text-lg text-gray-400 my-5 max-w-[600px]'
                                     >{item.shortDes}
 
-                                        {/* I am a full stack developer with experience in building web applications using various technologies such */}
                                     </motion.p>
 
 
@@ -97,12 +86,6 @@ const HeroContent = async () => {
                     </div>
 
 
-
-                    {/* <span>
-                    Providing
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
-                    project expereince
-                    </span> */}
 
                 </motion.div>
 

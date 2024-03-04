@@ -51,128 +51,6 @@ const Skills = async () => {
 
 
 
-            {/* <div className="w-full py-[10px] border border-[#7042f88b] opacity-[0.9] rounded-full">
-
-                <div className=" flex items-center px-5">
-                    <div>
-                        <Image
-                            src="/html.png"
-                            alt="html"
-                            width={60}
-                            height={60}
-                        />
-                    </div>
-                    <Progress className=" ml-3" value={78} />
-                </div>
-            </div>
-
-            <div className="w-full py-[10px] border border-[#7042f88b] opacity-[0.9] rounded-full">
-
-                <div className=" flex items-center px-5">
-                    <div>
-                        <Image
-                            src="/tailwind-css.png"
-                            alt="html"
-                            width={60}
-                            height={60}
-                        />
-                    </div>
-                    <Progress className=" ml-3" value={88} />
-                </div>
-            </div>
-
-            <div className="w-full py-[15px] border border-[#7042f88b] opacity-[0.9] rounded-full">
-
-                <div className=" flex items-center px-5">
-                    <div>
-                        <Image
-                            src="/js.png"
-                            alt="html"
-                            width={40}
-                            height={40}
-                        />
-                    </div>
-                    <Progress className=" ml-3" value={60} />
-                </div>
-            </div>
-
-            <div className="w-full py-[10px] border border-[#7042f88b] opacity-[0.9] rounded-full">
-
-                <div className=" flex items-center px-5">
-                    <div>
-                        <Image
-                            src="/typescript.png"
-                            alt="html"
-                            width={60}
-                            height={60}
-                        />
-                    </div>
-                    <Progress className=" ml-3" value={90} />
-                </div>
-            </div>
-
-
-            <div className="w-full py-[10px] border border-[#7042f88b] opacity-[0.9] rounded-full">
-
-                <div className=" flex items-center px-5">
-                    <div>
-                        <Image
-                            src="/mui.png"
-                            alt="html"
-                            width={60}
-                            height={60}
-                        />
-                    </div>
-                    <Progress className=" ml-3" value={28} />
-                </div>
-            </div>
-
-            <div className="w-full py-[25px] border border-[#7042f88b] opacity-[0.9] rounded-full">
-
-                <div className=" flex items-center px-5">
-                    <div>
-                        <Image
-                            src="/shadcn.svg"
-                            alt="html"
-                            width={80}
-                            height={0}
-
-                        />
-                    </div>
-                    <Progress className=" ml-3" value={55} />
-                </div>
-            </div>
-
-            <div className="w-full py-[10px] border border-[#7042f88b] opacity-[0.9] rounded-full">
-
-                <div className=" flex items-center px-5">
-                    <div>
-                        <Image
-                            src="/react.png"
-                            alt="html"
-                            width={60}
-                            height={60}
-                        />
-                    </div>
-                    <Progress className=" ml-3" value={42} />
-                </div>
-            </div>
-
-            <div className="w-full py-[25px] border border-[#7042f88b] opacity-[0.9] rounded-full">
-
-                <div className=" flex items-center px-5">
-                    <div>
-                        <Image
-                            src="/next.svg"
-                            alt="html"
-                            width={60}
-                            height={0}
-                        />
-                    </div>
-                    <Progress className=" ml-3" value={92} />
-                </div>
-            </div> */}
-
 
 
             {
@@ -181,12 +59,8 @@ const Skills = async () => {
                         <div className="w-full py-[15px] border border-[#7042f88b] opacity-[0.9] rounded-full">
 
                             <div className=" flex items-center px-5">
-                                {/* <h1 className="text-2xl text-white">{item.skillName}</h1> */}
-                                <div>
 
-                                    {/* {item.iconImage && (
-  <Image src={urlForImage(item.iconImage).url()} alt="icon" height={150} width={150} />
-)} */}
+                                <div>
 
                                     <Image
 
@@ -208,34 +82,6 @@ const Skills = async () => {
 
 
 
-
-
-            {/* <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-                {Frontend_skill.map((image, index) => (
-                    <SkillDataProvider
-                        key={index}
-                        src={image.Image}
-                        width={image.width}
-                        height={image.height}
-                        index={index}
-                    />
-                ))}
-
-            </div> */}
-
-            {/* <div className="w-full h-full absolute">
-                <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-                    <video
-                        className="w-full h-auto"
-                        preload="false"
-                        playsInline
-                        loop
-                        muted
-                        autoPlay
-                        src="/cards-video.webm"
-                    />
-                </div>
-            </div> */}
 
 
         </section>
