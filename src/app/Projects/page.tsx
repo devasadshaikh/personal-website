@@ -17,7 +17,7 @@ export const getProjects = async () => {
     projectDes,
     projectImage
     }`);
-  return proj
+  return proj as IProjects[];
 }
 
 const ProjectsPage = async () => {

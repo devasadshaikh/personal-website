@@ -2,12 +2,15 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  
+    "scripts": {
+      "dev": "node server.js",
+      "build": "next build",
+      "start": "NODE_ENV=production node server.js",
+      "export": "npm run build && next export"
+    },
+  
+  
   "dependencies": {
     "@radix-ui/react-progress": "^1.0.3",
     "@react-spring/three": "^9.7.3",
@@ -42,3 +45,5 @@
     "typescript": "^5"
   }
 }
+
+
